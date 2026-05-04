@@ -22,7 +22,7 @@ SYMBOL           = "BTCUSDT"
 INTERVAL         = "5m"
 STREAK_TRIGGER   = 4
 FETCH_LIMIT      = 10
-CHECK_INTERVAL   = 30      # seconds between candle checks
+CHECK_INTERVAL   = 1      # seconds between candle checks
 POLL_INTERVAL    = 2       # seconds between Telegram update polls
 DB_FILE          = "subscribers.db"
 # ─────────────────────────────────────────────────────────────────────────────
